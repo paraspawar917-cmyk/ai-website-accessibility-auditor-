@@ -1469,3 +1469,15 @@ h1 {
   color: var(--primary);
   border-color: var(--primary);
 }
+/* Improve heading visibility on the light dashboard */
+h1,
+h2,
+h3 {
+  color: #1f2937 !important;
+}
+
+.welcome-row h1,
+.url-heading h2,
+.panel-heading h2 {
+  color: #111827 !important;
+}
